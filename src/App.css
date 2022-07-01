@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+.Container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 256px;
+  height: 256px;
+  flex-wrap: wrap;
+}
+
+.Box {
+  width: 60px;
+  height: 60px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+.Matches{
+  font-size: 30px;
+  display: flex;
+  position: absolute;
+  margin-bottom: 400px;
+  margin-right: 500px;
+  color: tomato;
+  
+  
+}
+.Turns{
+  font-size: 30px;
+  position: absolute;
+  margin-left: 500px;
+  margin-bottom: 400px;
+  color: tomato;
+  
+
+
+}
+.GameOver{
+  font-size: 40px;
+  font-weight: 700;
+  background-color:antiquewhite ;
+  border-radius: 8px;
+  border: 5px solid;
+  width: 250px;
+
+}
+.GameOverContainer{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  z-index: 10;
+  background: #0005;
+  justify-content: center;
+  align-items: center;
+}
+.buton{
+  font-size: 30px;
+  position: absolute;
+  margin-top: 350px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  
+}
+.win{
+  background-color: blue;
+}
